@@ -1,0 +1,139 @@
+variables:
+  PROJECT_FOLDER: '/var/www/html/'
+  SCRIPT_DIR: /var/www/scripts
+
+cache: &global_cache
+  untracked: true
+  key: '$CI_BUILD_REF_NAME'
+  paths:
+    - client/node_modules/
+    - client/build/
+    - server/node_modules/
+
+stages:
+  - build
+  - setup
+  - deploy
+
+# ===============================
+# Base Configuration
+# ===============================
+
+# prepare env
+.install_requirements:
+  stage: build
+  script:
+    - sudo mkdir -p $PROJECT_FOLDER/$CI_BUILD_REF_NAME
+    - $SCRIPT_DIR/custom_env.sh server/
+    - $SCRIPT_DIR/process.sh server/
+  cache:
+    <<: *global_cache
+    policy: pull
+  artifacts:
+    paths:
+      - server/.env
+
+# install and build dist
+.install_and_build:
+  stage: build
+  script:
+    - cd ./server; npm install;
+    - cd ../client; npm install;
+    - CI=false npm run build
+  cache:
+    <<: *global_cache
+  artifacts:
+    paths:
+      - build/
+
+# install and build dist
+.database_setup:
+  stage: setup
+  script:
+    - cd ./server
+    - npm run db:create
+    - npm run migrate:undo
+    - npm run migrate
+    - npm run seed
+  cache:
+    <<: *global_cache
+    policy: pull
+
+.deploy:
+  stage: deploy
+  script:
+    - sudo rm -rf $PROJECT_FOLDER/$CI_BUILD_REF_NAME/build
+    - sudo cp -r ./* $PROJECT_FOLDER/$CI_BUILD_REF_NAME
+    - cd $PROJECT_FOLDER/$CI_BUILD_REF_NAME/server
+    - pm2 start process.json
+  cache:
+    <<: *global_cache
+    policy: pull
+
+# ===============================
+# Development Runner
+# ===============================
+
+install_requirements:dev:
+  extends: .install_requirements
+  tags:
+    - dev
+  only:
+    - predev
+    - dev
+
+install_and_build:dev:
+  extends: .install_and_build
+  tags:
+    - dev
+  only:
+    - predev
+    - dev
+
+database_setup:dev:
+  extends: .database_setup
+  tags:
+    - dev
+  only:
+    - predev
+    - dev
+
+deploy:dev:
+  extends: .deploy
+  tags:
+    - dev
+  only:
+    - predev
+    - dev
+
+# ===============================
+# Production Runner
+# ===============================
+
+install_requirements:master:
+  extends: .install_requirements
+  tags:
+    - master
+  only:
+    - master
+
+install_and_build:master:
+  extends: .install_and_build
+  tags:
+    - master
+  only:
+    - master
+
+database_setup:master:
+  extends: .database_setup
+  tags:
+    - master
+  only:
+    - master
+
+deploy:master:
+  extends: .deploy
+  tags:
+    - master
+  only:
+    - master

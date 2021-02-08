@@ -1,0 +1,106 @@
+.ant-table-column-sorter-down.active {
+  color: #ffffff !important;
+}
+.ant-table-column-sorter-up.active {
+  color: #ffffff !important;
+}
+.davys-grey {
+  color: #555 !important;
+}
+.ant-pagination-item-active {
+  border-color: #555 !important;
+}
+.ant-pagination-item-active a {
+  color: #555 !important;
+}
+
+.ant-btn {
+  background: #e1e1e1;
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #9e0b0f;
+  background: #e1e1e1;
+  border-color: #9e0b0f;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  background: #b30b11;
+  border-color: #b30b11;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background: #9e0b0f;
+  border-color: #9e0b0f;
+}
+
+.add-button {
+  margin-left: 20px;
+  color: brown;
+}
+
+td.ant-table-cell.ant-table-column-sort {
+  background-color: #fff;
+}
+
+tr.ant-table-expanded-row > td {
+  background-color: #fff !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-right: none !important;
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+  background-color: #fbfbfb;
+}
+
+.table-striped-rows thead {
+  background-color: #f1f1f1;
+}
+
+.c-btn-default {
+  background-color: #fff !important;
+}
+
+.c-btn-default:hover {
+  background-color: #fff !important;
+}
+
+.primary-color {
+  color: #9e0b0f !important;
+}
+
+.add-button {
+  border-radius: 5px;
+}
+
+.add-button.ant-btn[disabled] {
+  background-color: rgb(218 141 143) !important;
+}
+
+.release-button.ant-btn[disabled] {
+  background-color: #d19a75 !important;
+}
+
+.row-dragging {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  z-index: 999999999999999999;
+}
+
+.row-dragging td {
+  padding: 16px;
+  visibility: hidden;
+}
+
+.row-dragging .drag-visible {
+  visibility: visible !important;
+}
+
+/* .table-resizeable .ant-table {
+  overflow-x: auto;
+} */

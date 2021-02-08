@@ -1,0 +1,65 @@
+[Mon Nov 16 2020 13:37:51 GMT+0800 (Philippine Standard Time)]
+[object Object]
+[Mon Nov 16 2020 13:39:25 GMT+0800 (Philippine Standard Time)]
+{"accepted":["axl.cuyugan@exact-construct.ch"],"rejected":[],"envelopeTime":998,"messageTime":1110,"messageSize":32548,"response":"250 OK id=1keXEa-001ulx-9c","envelope":{"from":"exactplace@exact-construct.ch","to":["axl.cuyugan@exact-construct.ch"]},"messageId":"<ae871aa0-2a1f-0fbb-a2b2-fdc160dce915@exact-construct.ch>"}
+[Mon Nov 16 2020 13:40:26 GMT+0800 (Philippine Standard Time)]
+{"accepted":["axl.cuyugan@exact-construct.ch"],"rejected":[],"envelopeTime":1042,"messageTime":1269,"messageSize":32548,"response":"250 OK id=1keXFY-001v8K-SA","envelope":{"from":"exactplace@exact-construct.ch","to":["axl.cuyugan@exact-construct.ch"]},"messageId":"<e5c48e91-bc51-9614-dcf6-db818ff8a05f@exact-construct.ch>"}
+[Mon Nov 16 2020 13:45:19 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Mon Nov 16 2020 14:48:42 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Mon Nov 16 2020 15:02:17 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Mon Nov 16 2020 16:04:15 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Mon Nov 16 2020 16:17:21 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Tue Nov 17 2020 11:43:12 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Tue Nov 17 2020 11:44:06 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Tue Nov 17 2020 11:48:53 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Tue Nov 17 2020 11:55:16 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Thu Nov 19 2020 10:28:48 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Thu Nov 19 2020 10:30:57 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Thu Nov 19 2020 10:31:35 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Tue Jan 12 2021 11:52:08 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] [object Object]
+[Tue Jan 12 2021 16:43:31 GMT+0800 (Philippine Standard Time)]
+[Mail Error] Error Name: Error
+Error Message: Cannot find module '../enums/environment'
+Require stack:
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/mailer/contents/ServerError.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/mailer/index.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/helper/ErrorHandler.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/routes/index.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/Server.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/index.js
+[Tue Jan 12 2021 16:47:06 GMT+0800 (Philippine Standard Time)]
+[Mail Error] Error Name: Error
+Error Message: Cannot find module '../enums/environment'
+Require stack:
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/mailer/contents/ServerError.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/mailer/index.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/helper/ErrorHandler.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/routes/index.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/Server.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/index.js
+[Tue Jan 12 2021 16:49:51 GMT+0800 (Philippine Standard Time)]
+[Mail Error] Error Name: Error
+Error Message: Cannot find module '../enums/environment'
+Require stack:
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/mailer/contents/ServerError.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/mailer/index.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/helper/ErrorHandler.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/routes/index.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/Server.js
+- /Applications/XAMPP/xamppfiles/htdocs/2b_visions/server/index.js
+[Tue Feb 09 2021 01:48:07 GMT+0800 (Philippine Standard Time)]
+[Mail Sent] 
+{"accepted":["axlcuyugan05@gmail.com"],"rejected":[],"envelopeTime":1010,"messageTime":1023,"messageSize":91476,"response":"250 OK id=1l9Adq-007YgY-Om","envelope":{"from":"exactplace@exact-construct.ch","to":["axlcuyugan05@gmail.com"]},"messageId":"<f56cfa69-29a2-599c-adcd-d5c0f0724bf0@exact-construct.ch>"}
