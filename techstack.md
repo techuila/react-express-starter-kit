@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 techuila/react-express-starter-kit is built on the following main stack:
+
 - [Rollbar](https://rollbar.com/) – Exception Monitoring
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [React](https://reactjs.org/) – Javascript UI Libraries
@@ -21,11 +22,13 @@ techuila/react-express-starter-kit is built on the following main stack:
 - [MobX-State-Tree](https://mobx-state-tree.js.org/intro/welcome) – State Management Library
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 techuila/react-express-starter-kit is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png' alt='Rollbar'/> [Rollbar](https://rollbar.com/) – Exception Monitoring
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
@@ -45,14 +48,15 @@ techuila/react-express-starter-kit is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/9129/default_c85dc717f6faf8f246f92d33fca5399a349b294f.png' alt='MobX-State-Tree'/> [MobX-State-Tree](https://mobx-state-tree.js.org/intro/welcome) – State Management Library
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [techuila/react-express-starter-kit](https://github.com/techuila/react-express-starter-kit)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|44<br/>Tools used|11/15/23 <br/>Report generated|
+|44<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -276,4 +280,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
